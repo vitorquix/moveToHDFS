@@ -2,10 +2,10 @@
 "pipelines":
       [
         { "type": "in",
-          "host": "bdtpx03.interno",
+          "host": "xxxxxx",
           "port": "22",
-          "user": "sods3001",
-          "passw": "G4tr7rVs",
+          "user": "xxxxxx",
+          "passw": "xxxxxxx",
           "pipeline": "load-pdv",
           "sourceFilePrefix": "PDV_RAW_WEB",
           "sourceProtocol": "sftp",
