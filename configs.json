@@ -1,0 +1,20 @@
+{
+"pipelines":
+      [
+        { "type": "in",
+          "host": "bdtpx03.interno",
+          "port": "22",
+          "user": "sods3001",
+          "passw": "G4tr7rVs",
+          "pipeline": "load-pdv",
+          "sourceFilePrefix": "PDV_RAW_WEB",
+          "sourceProtocol": "sftp",
+          "sourceFolderFTP": "/dados/ecommerce/pdv_web/entrada/",
+          "folderConversao": "entrada/",
+          "destinationFolderConversao" : "dados/",
+          "destinationFolderHDFS" : "/oi/digital/stage/ctl_cargas/078_pontos_de_venda/dados/"
+        }
+  ]
+}
+
+
